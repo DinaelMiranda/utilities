@@ -1,9 +1,10 @@
-COMANDO PARA CRIAR COMPONENTES SEM O ARQUVIO DE TESTE E TS
-
-ng g c page-ncm --skip-import --spec false  --inline-style
-
+COMITAR AS ALTERAÇÕES PRO GITHUB
 git add .
 git status
 git commit -m "Alteração de Teste"
 git push -u origin main
+
+COMANDO PARA CRIAR COMPONENTES SEM O ARQUVIO DE TESTE E TS
+ng g c page-ncm --skip-import --spec false  --inline-style
+
 
