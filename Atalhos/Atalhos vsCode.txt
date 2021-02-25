@@ -1,3 +1,2 @@
 DUPLICAÇÃO DE LINHA:
-
 Alt + shift = seta (baixo ou cima)
