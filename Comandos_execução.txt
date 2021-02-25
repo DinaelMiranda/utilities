@@ -1,8 +1,39 @@
+CONFIGURAR USUÁRIO GIT:
+git config --list (Verifica as configurações inclusive se há usuário configurado)
+git config --global user.name "userName"
+git config --global user.name "tadsdinael@gmail.com"
+
+INICIANDO REPOSITORIO
+git init (com o terminal aberto na pasta)
+git remote add origin https://github.com/DinaelMiranda/utilities.git
+
+
 COMITAR AS ALTERAÇÕES PRO GITHUB
 git add .
 git status
 git commit -m "Alteração de Teste"
 git push -u origin main
+
+PROBLEMA COMANDO
+Quero desfazer tudo que eu fiz desde o último commit - git clean -df git checkout -- .
+Preciso remover o último commit, porém mantendo os
+arquivos do jeito que estão. git reset --soft HEAD~1
+Preciso remover o último commit, inclusive as
+alterações nos arquivos. git reset --hard HEAD~1
+Quero alterar temporariamente os arquivos do projeto
+de modo a ficarem no estado do commit informado.
+ATENÇÃO: não podem haver modificações não
+commitadas no projeto.
+
+NOTA: para voltar ao último commit faça:
+git checkout master
+git checkout <código do commit>
+
+EXEMPLO: git checkout e8a52f3
+Preciso apagar o último commit no Github git push -f origin HEAD^:master
+Quero mudar o meu repositório remoto "origin" git remote set-url origin https://github.com/acenelio/novoprojeto.git
+Entrei no VIM por engano. Como sair? Tecle ESC, depois digite :q! e tecle ENTER
+
 
 COMANDO PARA CRIAR COMPONENTES SEM O ARQUVIO DE TESTE E TS
 ng g c page-ncm --skip-import --spec false  --inline-style
