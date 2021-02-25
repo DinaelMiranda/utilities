@@ -1,14 +1,11 @@
-a = 1;
-b = 2;
+let produto = { nome: "Sapato", preco: 150 };
 
-//function Declaration
-function soma() {
-  return a + b;
+formulaImpostoA = function (preco) {return preco*0.1}
+formulaImpostoB = function (preco) {return preco*0.2}
+
+calculaPrecoFinal = function (produto, formulaImposto) {
+  return produto["preco"] + formulaImposto(produto["preco"])
 }
 
-let soma = function (a, b) {
-    return a + b;
-}
-
-
-console.log(soma)
+calculaPrecoFinal(produto.preco, formulaImpostoA);
+calculaPrecoFinal(produto.preco, formulaImpostoB);
