@@ -1,0 +1,18 @@
+CONVERSÃO DE UMA LISTA PARA UMA LISTADTO COM MAP E COLLECTION
+public ResponsEntity<List<UserDto>> findAll() {
+
+//Pega a lista usanndo o findAll do serviceUser
+List<User> list = service.findAll()
+
+//transforma numa stream para chamar o método Map que com a espressão lambda
+instacia um novo UserDto(construtor que recebe o objeto original e seta para os campos do DTO) atraves de cada objeto da lista original(demos o nome 
+de objDeList), por fim, a stream que foi criada é convertida novamente para 
+uma Lista.
+List<DTO> listDto = list.stream().map(objDeList -> new UserDto((objDeList )).
+collect(collerctors.toList()).
+
+
+
+
+
+}

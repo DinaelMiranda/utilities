@@ -14,6 +14,10 @@ git status
 git commit -m "Alteração de Teste"
 git push -u origin main
 
+SE PRECISAR FAZER UM PULL ANTES DO PUSH
+git pull origin main
+
+
 PROBLEMA COMANDO
 Quero desfazer tudo que eu fiz desde o último commit - git clean -df git checkout -- .
 Preciso remover o último commit, porém mantendo os
@@ -33,6 +37,9 @@ EXEMPLO: git checkout e8a52f3
 Preciso apagar o último commit no Github git push -f origin HEAD^:master
 Quero mudar o meu repositório remoto "origin" git remote set-url origin https://github.com/acenelio/novoprojeto.git
 Entrei no VIM por engano. Como sair? Tecle ESC, depois digite :q! e tecle ENTER
+
+CRIADO ARQUIVO .GITIGNORE
+touch .gitignore
 
 
 COMANDO PARA CRIAR COMPONENTES SEM O ARQUVIO DE TESTE E TS
