@@ -1,0 +1,9 @@
+PutMapping(value ="/{id}")
+public ResponseEntity<Void> update(@RequestBody Pessoa pessoa,@PathVariable Long id){
+
+        Optional<Pessoa> novaPessoa = pessoaRepository.findById(id);
+        if (novaPessoa == null) {
+            throw new EmptyResultDataAccessException(1);
+        }
+         
+BeanUtils.copyProperties(pessoa, novaPessoa, "id");
