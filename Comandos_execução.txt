@@ -43,6 +43,8 @@ touch .gitignore
 
 
 COMANDO PARA CRIAR COMPONENTES SEM O ARQUVIO DE TESTE E TS
+Botão direito nodiretório que ser quer criar o novo componente --> 
+Open in integrated Terminal(Abrirá o caminho da pasta no terminal)
 ng g c page-ncm --skip-import --spec false  --inline-style
 
 
