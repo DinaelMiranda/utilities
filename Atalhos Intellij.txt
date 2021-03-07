@@ -1,0 +1,2 @@
+CTRL + F8 - Marca um break ponit
+CTRL + F9 - Builda o projeto
