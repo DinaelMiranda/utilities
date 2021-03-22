@@ -1,0 +1,8 @@
+    
+ALTER TABLE POSTGRE
+<changeSet id="Aterar atributo rede para rede_id" author="dinael" runOnChange="true">
+        <sql splitStatements="true" dbms="postgresql">
+            ALTER TABLE erp.cliente
+            RENAME COLUMN rede TO rede_id;
+        </sql>
+    </changeSet>

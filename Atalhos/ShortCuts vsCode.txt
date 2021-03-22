@@ -1,0 +1,5 @@
+DUPLICAÇÃO DE LINHA:
+Alt + shift = seta (baixo ou cima)
+
+CONSOLE.LOG
+clg

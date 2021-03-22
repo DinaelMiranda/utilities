@@ -47,4 +47,5 @@ Botão direito nodiretório que ser quer criar o novo componente -->
 Open in integrated Terminal(Abrirá o caminho da pasta no terminal)
 ng g c page-ncm --skip-import --spec false  --inline-style
 
-
+CODIGO BOILERPLATE
+- Código padrão/estrutura padrão/ código que será pouco alterado

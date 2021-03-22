@@ -27,3 +27,4 @@ jacket = jaqueta
 h,i,j
 choice - Escolher
 Allow - 
+Also - Além disso
