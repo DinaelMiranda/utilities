@@ -1,0 +1,21 @@
+PROBLEMAS RESOLVIDOS:
+1.INCOMPATIBILIDADE DE IMPEDÂNCIA
+ - É a tradução do modelo relacional, representado pelas tabelas que representam esses Objetos no BD (Que ficam no Disco) para p modelo de   instâncias dos Objetos associados em memória(Que ficam na memória RAM).
+Algumas ferramentas de Modelo Objeto Relacional (ORM) resolvem esse problema,
+porém causam um pouco de perda de performance.
+
+- Apensar das ferramentas de ORM, os joins causam perda de performance.
+
+2.GRANDE VOLUMES DE DADOS E ACESSOS:
+- Incompatibilidade do modelo relacional quando necessário o almento do hadware por conta de grandes qntd de acessos e de fluxo de dados  (Estrutura de Cluster ou Grind - Um compodutador centrar e vários outros associados).
+
+*******************************************
+O nome noSQL não foi pensado, Não significa "não sql" nem "não só sql"
+
+CARACTERÍSTICAS MONGODB:
+- BANCO DE DADOS ORIENTADO A AGREGADOS (Conjunto de objetos relacionados tratados como uma única unidade)
+- Guardados no BD como um único bloco de JSON, por exemplo, que podem ser
+recuperados com um único acesso.
+- Dados não normalizados (Com a intenção de pegar os um bloco mais acessado, parte desse bloco pode estar em seu local de origem e tambem fazendo parte de outro bloco mais acessado que precisa dele)
+- Compatilidade das instâncias dos Objetos associados em memória com os agregados (BLOCO DE JSON)
+- Todos os dados de um agregado estão armazenados JUNTOS e no MESMO NODO de um Cluster
